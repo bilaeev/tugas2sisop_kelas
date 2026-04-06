@@ -15,7 +15,7 @@
   - Penggunaan CPU dan Memory tertinggi terdapat pada Google Chrome. Hal ini terjadi karena browser menjalankan banyak proses secara bersamaan, seperti membuka beberapa tab, menjalankan JavaScript, serta memuat konten halaman web sehingga membutuhkan pemrosesan dan memori yang besar.  
   - Penggunaan Disk tertinggi terdapat pada WhatsApp. Hal ini kemungkinan disebabkan oleh aktivitas baca/tulis data seperti mengunduh atau menyimpan file (gambar, video, atau dokumen), sehingga penggunaan disk meningkat.  
   - Penggunaan Network tertinggi terdapat pada Visual Studio Code sebesar 0,7 Mbps. Meskipun nilainya kecil, hal ini dapat terjadi karena adanya aktivitas seperti sinkronisasi ekstensi, update, atau komunikasi dengan server.  
-4. Alasan perbedaan penggunaan sumber daya :
+4. Alasan perbedaan penggunaan sumber daya :  
   Perbedaan penggunaan sumber daya (CPU, Memory, Disk, dan Network) terjadi karena setiap aplikasi memiliki fungsi dan kebutuhan yang berbeda, yaitu :  
   - Pada hasil pengamatan, Google Chrome menggunakan CPU dan Memory paling tinggi. Hal ini karena Google Chrome menjalankan banyak proses seperti membuka beberapa tab, menjalankan script, dan memuat konten web sehingga membutuhkan pemrosesan (CPU) dan penyimpanan data sementara (RAM) yang besar.  
   - Sementara itu, WhatsApp memiliki penggunaan Disk tertinggi. Hal ini disebabkan oleh aktivitas baca/tulis data seperti mengunduh atau menyimpan file (gambar, video, atau dokumen), sehingga penggunaan disk menjadi tinggi.  
