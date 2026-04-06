@@ -50,7 +50,7 @@ Langkah-langkah:
 1. Buka beberapa aplikasi secara bersamaan  
 2. Buka Task Manager  
 3. Perhatikan kolom CPU yang berubah-ubah  
-==> CPU bergantian digunakan. Hal ini menunjukkan bahwa CPU dibagi ke setiap proses secara bergiliran.
+==> CPU bergantian digunakan. Hal ini menunjukkan bahwa CPU dibagi ke setiap proses secara bergiliran.  
 
 4. Priority Scheduling  
 Priority Scheduling adalah metode penjadwalan berdasarkan tingkat prioritas proses.  
@@ -61,7 +61,7 @@ Priority Scheduling adalah metode penjadwalan berdasarkan tingkat prioritas pros
    2. Masuk ke tab Details  
    3. Klik kanan salah satu proses  
    4. Pilih Set Priority, amati  
-   ==> Hal ini menunjukkan bahwa proses dengan prioritas lebih tinggi akan diutamakan.
+   ==> Hal ini menunjukkan bahwa proses dengan prioritas lebih tinggi akan diutamakan.  
 
 5. Multilevel Queue Scheduling  
 Multilevel Queue Scheduling adalah metode yang membagi proses ke dalam beberapa antrian berdasarkan kategori tertentu.  
