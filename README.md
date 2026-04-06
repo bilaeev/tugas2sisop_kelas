@@ -22,23 +22,53 @@
   - Sedangkan Visual Studio Code memiliki penggunaan Network tertinggi, walaupun nilainya kecil. Hal ini dapat terjadi karena adanya aktivitas seperti sinkronisasi data, update ekstensi, atau koneksi ke server saat proses coding.  
 
 # Contoh Scheduling
-1. First-Come, First-Served (FCFS)  
+**1. First-Come, First-Served (FCFS)**  
 FCFS adalah metode penjadwalan yang menjalankan proses berdasarkan urutan kedatangan.  
 ● Contoh pada OS:  
-Digunakan pada sistem batch di Linux, terutama pada antrian proses sederhana di mana proses yang masuk terlebih dahulu akan diproses lebih dulu tanpa prioritas khusus.  
-2. Shortest Job Next (SJN)  
+   Pada sistem operasi seperti Windows dengan membuka beberapa aplikasi secara berurutan, misalnya notepad, kalkulator, lalu browser.  
+   Langkah-langkah:  
+   1. Buka aplikasi satu per satu secara berurutan.  
+   2. Buka Task Manager.  
+   3. Perhatikan urutan proses yang muncul.    
+   ==> Hal ini menggambarkan konsep proses dijalankan berdasarkan urutan kedatangan.  
+      
+**2. Shortest Job Next (SJN)**  
 SJN adalah metode penjadwalan yang memilih proses dengan waktu eksekusi paling singkat terlebih dahulu.  
 ● Contoh pada OS:  
-Digunakan dalam sistem batch pada Unix dan Linux untuk meningkatkan efisiensi waktu tunggu dengan mendahulukan proses yang lebih cepat selesai.  
+   Pada sistem operasi seperti Linux dengan menjalankan aplikasi ringan seperti notepad dan aplikasi yang lebih berat seperti browser atau Visual Studio Code.  
+   Langkah-langkah:  
+   1. Jalankan aplikasi ringan dan aplikasi berat  
+   2. Buka Task Manager atau System Monitor  
+   3. Perhatikan perbedaan penggunaan CPU atau memory  
+   ==>Hal ini menggambarkan bahwa proses dengan pekerjaan lebih kecil dapat selesai lebih cepat.  
+    
 3. Round Robin (RR)  
 Round Robin adalah metode penjadwalan di mana setiap proses mendapat jatah waktu (time quantum) secara bergiliran.  
 ● Contoh pada OS:  
-Digunakan pada sistem multitasking seperti Windows dan Linux untuk menjaga agar semua proses mendapatkan kesempatan menggunakan CPU secara adil.  
+   Pada sistem operasi seperti Windows dengan membuka beberapa aplikasi secara bersamaan seperti browser, Visual Studio Code, dan WhatsApp.  
+Langkah-langkah:  
+1. Buka beberapa aplikasi secara bersamaan  
+2. Buka Task Manager  
+3. Perhatikan kolom CPU yang berubah-ubah  
+==> CPU bergantian digunakan. Hal ini menunjukkan bahwa CPU dibagi ke setiap proses secara bergiliran.
+
 4. Priority Scheduling  
 Priority Scheduling adalah metode penjadwalan berdasarkan tingkat prioritas proses.  
 ● Contoh pada OS:  
-Digunakan pada Android, di mana proses sistem (seperti telepon atau notifikasi penting) memiliki prioritas lebih tinggi dibandingkan aplikasi biasa.  
+   Pada sistem operasi seperti Windows melalui Task Manager.  
+   Langkah-langkah:  
+   1. Buka Task Manager  
+   2. Masuk ke tab Details  
+   3. Klik kanan salah satu proses  
+   4. Pilih Set Priority, amati  
+   ==> Hal ini menunjukkan bahwa proses dengan prioritas lebih tinggi akan diutamakan.
+
 5. Multilevel Queue Scheduling  
 Multilevel Queue Scheduling adalah metode yang membagi proses ke dalam beberapa antrian berdasarkan kategori tertentu.  
 ● Contoh pada OS:  
-Digunakan pada Linux, di mana proses dibagi menjadi beberapa antrian seperti proses sistem, proses interaktif, dan proses batch, dengan prioritas yang berbeda untuk setiap antrian.  
+   Pada sistem operasi seperti Windows melalui pembagian kategori proses.  
+   Langkah-langkah:  
+   1. Buka Task Manager  
+   2. Perhatikan kategori seperti Apps, Background processes, dan Windows processes  
+   3. Amati perbedaan jenis proses  
+   ==> Hal ini menggambarkan bahwa proses dikelompokkan ke dalam beberapa antrian berdasarkan jenisnya.  
