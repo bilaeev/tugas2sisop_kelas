@@ -1,5 +1,5 @@
 # tugas 2
-# Analisis proses
+# 1.) Analisis Proses
 1. Screenshot task manager (highlight warna kuning)  
    ![CPU](https://github.com/user-attachments/assets/db2403e9-ad38-4594-aaa0-2df553b17929)  
    ![MEMORY](https://github.com/user-attachments/assets/e1d84879-8313-497c-bcec-aa83e4d5786e)  
@@ -21,7 +21,7 @@
   - Sementara itu, WhatsApp memiliki penggunaan Disk tertinggi. Hal ini disebabkan oleh aktivitas baca/tulis data seperti mengunduh atau menyimpan file (gambar, video, atau dokumen), sehingga penggunaan disk menjadi tinggi.  
   - Sedangkan Visual Studio Code memiliki penggunaan Network tertinggi, walaupun nilainya kecil. Hal ini dapat terjadi karena adanya aktivitas seperti sinkronisasi data, update ekstensi, atau koneksi ke server saat proses coding.  
 
-# Contoh Scheduling
+# 2.) Contoh Scheduling
 **1. First-Come, First-Served (FCFS)**  
 FCFS adalah metode penjadwalan yang menjalankan proses berdasarkan urutan kedatangan.  
 ● Contoh pada OS:  
