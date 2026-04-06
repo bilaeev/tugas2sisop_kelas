@@ -42,7 +42,7 @@ SJN adalah metode penjadwalan yang memilih proses dengan waktu eksekusi paling s
    3. Perhatikan perbedaan penggunaan CPU atau memory  
    ==>Hal ini menggambarkan bahwa proses dengan pekerjaan lebih kecil dapat selesai lebih cepat.  
     
-3. Round Robin (RR)  
+**3. Round Robin (RR)**  
 Round Robin adalah metode penjadwalan di mana setiap proses mendapat jatah waktu (time quantum) secara bergiliran.  
 ● Contoh pada OS:  
    Pada sistem operasi seperti Windows dengan membuka beberapa aplikasi secara bersamaan seperti browser, Visual Studio Code, dan WhatsApp.  
@@ -52,7 +52,7 @@ Langkah-langkah:
 3. Perhatikan kolom CPU yang berubah-ubah  
 ==> CPU bergantian digunakan. Hal ini menunjukkan bahwa CPU dibagi ke setiap proses secara bergiliran.  
 
-4. Priority Scheduling  
+**4. Priority Scheduling**  
 Priority Scheduling adalah metode penjadwalan berdasarkan tingkat prioritas proses.  
 ● Contoh pada OS:  
    Pada sistem operasi seperti Windows melalui Task Manager.  
@@ -63,7 +63,7 @@ Priority Scheduling adalah metode penjadwalan berdasarkan tingkat prioritas pros
    4. Pilih Set Priority, amati  
    ==> Hal ini menunjukkan bahwa proses dengan prioritas lebih tinggi akan diutamakan.  
 
-5. Multilevel Queue Scheduling  
+**5. Multilevel Queue Scheduling**  
 Multilevel Queue Scheduling adalah metode yang membagi proses ke dalam beberapa antrian berdasarkan kategori tertentu.  
 ● Contoh pada OS:  
    Pada sistem operasi seperti Windows melalui pembagian kategori proses.  
